@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: no-repeat;
+    
+
+    background-color: white;
+    
+}
+header img{
+    padding-left: 0px;
+    max-height: 100px;
+}
+nav{
+    height: 35px;
+    background: #272f54;
+    margin-bottom: 15px;
+}
+nav .menu ul {
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    
+    font-size: 12px;
+    text-decoration: none;
+}
+nav .menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+nav .menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 12px;
+    color: white;
+    padding: 0px 10px;
+    line-height: 40px;
+}
+nav .menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: grey;
+    text-align: center;
+}
+nav .menu>ul>li>a:hover{
+    color: yellow;
+}
+nav .menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+nav .menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+nav .menu>ul>li:hover>ul{
+    display: block;
+}
+nav .menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+nav .search{
+    line-height: 35px;
+    float: right;
+    margin-right: 25px;
+}
+input[type="text"] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+    text-align: center;
+    height: 25px;
+}
+input[type="text"]:focus{
+    width:175px; 
+}
+article h1{
+    text-align: left;
+    padding: 15px;
+    color: white;
+    background: blue;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+article .list .item{
+    width: 28%;
+    padding: 12px;
+    float: left;
+    border: none;
+    margin-right: 4%;
+}
+article .list .item h4{
+    color: black;
+    font-size: 16px;
+}
+article .list .item img{
+    margin: 10px auto;
+}
+article .list .item .content{
+    font-size: 13px;
+}
+#fix{
+    margin-right: 0%;
+}
+aside h1{
+    text-align: left;
+    padding: 15px;
+    color: white;
+    background: blue;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+aside .list .item{
+    width: 28%;
+    padding: 12px;
+    float: left;
+    border: none;
+    margin-right: 4%;
+}
+aside .list .item h4{
+    color: black;
+    font-size: 16px;
+}
+aside .list .item img{
+    margin: 10px auto;
+}
+aside .list .item .content{
+    font-size: 13px;
+}
+
+.container .pull-right {
+    float: right;
+   
+}
+.container .pull-right .login-link{
+    font-size: 15px;
+   display: block;
+   float: right;
+   margin: 10px;
+   
+
+}
+.container .pull-right .register-link{
+    font-size: 15px;
+   display: block;
+   float: right;
+   margin: 10px;
+   
+  
+}
+footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}

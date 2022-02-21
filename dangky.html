@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>29-PS22968-VanThai</title>
+        <style>
+        body form{
+            margin: auto;
+            width: 500px;
+        }
+    </style>
+    </head>
+    <body>
+        <form action="xu-ly.php"
+              method="post"
+              enctype="multipart/form-data">
+            <div class="form-group">
+                <label><strong>Họ Và Tên:</strong></label>
+                <input type="text" name="id" class="font-control">
+            </div>  
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" name="pw" class="font-control">
+            </div>
+            <div class="form-group">
+                <label>email:</label>
+                <input type="text" name="em" class="font-control">
+            </div>
+            <div class="form-group">
+                <label><strong>Thể loại</strong></label>
+                <input type="checkbox" name="hobby" class="font-control"><strong>Thể Thao</strong>
+                <input type="checkbox" name="hobby" class="font-control" ><strong>Du lịch</strong>
+                <input type="checkbox" name="hobby" class="font-control"><strong>Âm nhạc</strong>
+                <input type="checkbox" name="hobby" class="font-control"><strong>Ẩm thực</strong>
+            </div>
+            <div>
+                <label><strong>Ghi Chú:</strong></label><br>
+                <textarea rows="5" cols="40"></textarea>
+            </div>
+            <hr>
+            <div class="form-group">
+                <input type="button" value="Đăng ký">
+                <input type="button" value="Nhập lại">
+            </div>
+        </form>
+    </body>
+</html>
